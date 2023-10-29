@@ -1,0 +1,134 @@
+body{
+    background-image: url(./components/h1.png);
+    background-size:cover;
+    background-attachment: fixed;
+    align-items: center;
+    cursor: pointer;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.search-bar{
+    outline: none;
+    border: none;
+    width: 70px;
+    transition: .07s linear;
+    overflow: hidden;
+}
+.search-bar:hover{
+    width : 160px
+}
+.rel{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(214, 216, 218);
+    margin-left:29px ;
+}
+.rel span{
+    color:rgb(255, 66, 66)
+}
+.rel2{
+    display: flex;
+    overflow: auto;
+    flex-wrap: wrap;
+    scroll-behavior: smooth;
+}
+.rel2::-webkit-scrollbar{
+    display: none;
+}
+video{
+    z-index: 4;
+}
+.mainvid{
+    opacity: 0.3;
+}
+.div::-webkit-scrollbar{
+    display: none;
+}
+.newrel img, .newrel2 img{
+    border-radius: 20px;
+}
+.newrel ,.newrel2{
+    transition: 0.2s linear;
+}
+.newrel1 img{
+    border-radius: 20px;
+
+}
+.newrel1:hover{
+    box-shadow: 3px 3px 20px black;
+}
+.newrel:hover{
+    box-shadow: 3px 3px 20px black;
+    height: 200px;
+    width: 290px;
+}
+.newrel2:hover{
+    box-shadow: 3px 3px 20px black;
+    height: 220px;
+    width: 310px;   
+}
+
+.div{
+    animation: scrollX 5s linear infinte;
+}
+@keyframes scrollX{
+    from {
+        left:translateX(0);
+    }
+    to{
+        left:translateX(-100%);
+    }
+}
+.bi-search{
+    position: relative;
+    top: 3px;
+    right: 5px;
+    
+}
+.scroll1{
+    display: flex;
+    width: 25%;
+    height: 900px;
+    overflow: auto;
+    margin-top: 20px;
+
+}
+.scroll1::-webkit-scrollbar{
+    display: none;
+}
+.line {
+    width: 93%;
+    height: 2px;
+    background-color: rgb(198, 18, 18);
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+.us{
+    display: flex;
+    margin-bottom: 4rem;
+    font-size: large;
+    justify-content: space-evenly;
+
+}
+.contact{
+    color: aliceblue;
+    padding-left: 2rem;
+}
+.desc{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 3rem;
+}
+.scroll2{
+    display: flex;
+    width: 25%;
+    height: 700px;
+    overflow: auto;
+    margin-top: 20px;
+
+}
+.scroll2::-webkit-scrollbar{
+    display: none;
+}
